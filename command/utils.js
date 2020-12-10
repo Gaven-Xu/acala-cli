@@ -68,7 +68,7 @@ async function selectD2sFile() {
         name: 'result',
         choices: [
           ...files.map(file => ({
-            name: path.basename(item).slice(0, path.basename(item).length - 4),
+            name: path.basename(file).slice(0, path.basename(file).length - 4),
             value: file
           }))
         ]
@@ -96,7 +96,6 @@ module.exports.resetStatsAndSkills = async function (filePath) {
   if (!filePath) {
     filePath = await selectD2sFile();
   }
-  console.log(filePath)
   const buffer = fs.readFileSync(filePath);
   const isReset = buffer.readUInt8(RESET_STATS_POS) === 0x2;
 

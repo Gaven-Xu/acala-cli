@@ -1,0 +1,15 @@
+{
+  "name": "acala",
+  "version": "1.0.0",
+  "description": "reset skill point of Diablo II",
+  "main": "./bin/index.js",
+  "bin": {
+    "acala": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

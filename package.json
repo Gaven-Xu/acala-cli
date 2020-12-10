@@ -6,7 +6,13 @@
   "bin": {
     "acala": "./bin/index.js"
   },
-  "keywords": [],
+  "keywords": [
+    "D2",
+    "Diablo II",
+    "Diablo 2",
+    "reset skill",
+    "macOS"
+  ],
   "author": "gavenxu",
   "license": "ISC",
   "dependencies": {
